@@ -15,26 +15,26 @@ This project focuses on hyperparameter optimization for a single-layer neural ne
 ## Installation
 To run this project, you need to have the following dependencies installed:
 
-- Python (version X.X.X)
-- TensorFlow (version X.X.X)
-- NumPy (version X.X.X)
-- Pandas (version X.X.X)
-- Scikit-learn (version X.X.X)
+- Python 
+- NumPy 
+- Pandas 
+- Scikit-learn 
 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+https://github.com/shouvikghorui7/Hyperparameter-optimization-of-neural-network.git
 ```
 
 ## Usage
 1. Navigate to the project directory.
-2. Open the main script file (`main.py` or `main.ipynb`).
+2. Open the main script file (`Hyperparameter optimization Single layer neural network.ipynb`).
 3. Modify the necessary parameters and configurations based on your requirements.
 4. Run the script to execute the experiments and obtain the results.
 
 ## Hyperparameter Optimization
 The hyperparameter optimization process in this project involves finding the optimal values for various hyperparameters of the single-layer neural network. These hyperparameters may include learning rate, number of hidden units, activation function, etc. The optimization technique used can be grid search, random search, or any other suitable method.
+Here I have optimized the number of neurons in a single-layer neural network
 
 During the optimization process, the neural network is trained and evaluated using different combinations of hyperparameter values. The aim is to identify the set of hyperparameters that minimizes the loss function and enhances the overall performance of the network.
 
@@ -43,8 +43,9 @@ After obtaining the optimized single-layer neural network, we compared its perfo
 
 The MSE measures the average squared difference between the predicted and actual values. A lower MSE indicates better predictive accuracy. The R2 score measures the proportion of the variance in the dependent variable that can be explained by the independent variables. A higher R2 score indicates better goodness of fit.
 
-Upon comparison, it was observed that the neural network achieved a lower MSE error and a higher R2 score compared to both linear regression and quadratic regression. These results indicate that the neural network is better suited for the particular case studied.
-
+Upon comparison, it was observed that the neural network achieved a lower MSE error and a higher R2 score compared to both linear regression and quadratic regression. These results indicate that the neural network is better suited for this particular case studied.
+## Comparison Images
+![Compersion between Neural Network Vs Linear Regression Vs Quadratic Regression](Hyperparameter-optimization-of-neural-network/image.png)
 ## Conclusion
 In this project, we successfully performed hyperparameter optimization for a single-layer neural network. By fine-tuning the hyperparameters, we achieved improved performance in terms of MSE error and R2 score. The optimized neural network outperformed both linear regression and quadratic regression models, making it the most suitable choice for the specific case under consideration.
 
