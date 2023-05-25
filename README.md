@@ -45,7 +45,7 @@ The MSE measures the average squared difference between the predicted and actual
 
 Upon comparison, it was observed that the neural network achieved a lower MSE error and a higher R2 score compared to both linear regression and quadratic regression. These results indicate that the neural network is better suited for this particular case studied.
 ## Comparison Images
-![Compersion between Neural Network Vs Linear Regression Vs Quadratic Regression](Hyperparameter-optimization-of-neural-network/image.png)
+![Compersion between Neural Network Vs Linear Regression Vs Quadratic Regression](image.png)
 ## Conclusion
 In this project, we successfully performed hyperparameter optimization for a single-layer neural network. By fine-tuning the hyperparameters, we achieved improved performance in terms of MSE error and R2 score. The optimized neural network outperformed both linear regression and quadratic regression models, making it the most suitable choice for the specific case under consideration.
 
